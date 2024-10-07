@@ -23,6 +23,10 @@ header {
     padding: 10px;
 }
 
+@media (max-width: 1360px) {
+    /* … */
+  }
+
 .content {
     padding: 20px;
 }
@@ -34,6 +38,24 @@ header {
     padding: 20px;
 }
 
+@media (max-width: 1360px) {
+    .sidebar{
+        left: 800px;
+    }
+  }
+
+  @media (max-width: 950px) {
+    .sidebar{
+        left: 500px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .sidebar{
+        left: 200px;
+    }
+  }
+
 .features {
     padding: 10px;
 }
@@ -42,10 +64,36 @@ header {
     position: relative;
     left: 600px;
 }
+
+@media (max-width: 950px) {
+    .features > h2{
+        left: 300px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .features > h2 {
+        left: 150px;
+    }
+  }
+
 .feature {
     position: relative;
     left: 550px;
 }
+
+@media (max-width: 950px) {
+    .feature {
+        left: 250px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .feature{
+        left: 100px;
+    }
+  }
+
 .feature > button {
     position: relative;
     left: 100px;
@@ -63,3 +111,9 @@ footer > p {
     position: relative;
     left: 600px;
 }
+
+@media (max-width: 640px) {
+    footer > p {
+        left: 200px;
+    }
+  }
