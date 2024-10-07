@@ -28,7 +28,9 @@ header {
 }
 
 .sidebar {
-
+    position: relative;
+    left: 1200px;
+    width: 155px;
     padding: 20px;
 }
 
@@ -36,6 +38,28 @@ header {
     padding: 10px;
 }
 
+.features > h2 {
+    position: relative;
+    left: 600px;
+}
+.feature {
+    position: relative;
+    left: 550px;
+}
+.feature > button {
+    position: relative;
+    left: 100px;
+}
+.feature > span {
+    position: relative;
+    left: 120px;
+}
+
 footer {
     padding: 10px;
+}
+
+footer > p {
+    position: relative;
+    left: 600px;
 }
